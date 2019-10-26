@@ -44,31 +44,31 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+  //int _counter = 0;
   String _test="開始時顯示的文字";
-  final TextEditingController _controller = TextEditingController();
-   void _showDialog() {
-    // flutter defined function
-    showDialog(
-      context: context,
-      builder: (BuildContext context) {
-        // return object of type Dialog
-        return AlertDialog(
-          title: new Text("Alert Dialog title"),
-          content: new Text(_test),
-          actions: <Widget>[
-            // usually buttons at the bottom of the dialog
-            new FlatButton(
-              child: new Text("Close"),
-              onPressed: () {
-                Navigator.of(context).pop();
-              },
-            ),
-          ],
-        );
-      },
-    );
-  }
+  //final TextEditingController _controller = TextEditingController();
+  //  void _showDialog() {
+  //   // flutter defined function
+  //   showDialog(
+  //     context: context,
+  //     builder: (BuildContext context) {
+  //       // return object of type Dialog
+  //       return AlertDialog(
+  //         title: new Text("Alert Dialog title"),
+  //         content: new Text(_test),
+  //         actions: <Widget>[
+  //           // usually buttons at the bottom of the dialog
+  //           new FlatButton(
+  //             child: new Text("Close"),
+  //             onPressed: () {
+  //               Navigator.of(context).pop();
+  //             },
+  //           ),
+  //         ],
+  //       );
+  //     },
+  //   );
+  // }
 
 
   @override
