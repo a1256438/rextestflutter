@@ -45,7 +45,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
-  String _test="開始時顯示";
+  String _test="開始時顯示的文字";
   final TextEditingController _controller = TextEditingController();
    void _showDialog() {
     // flutter defined function
